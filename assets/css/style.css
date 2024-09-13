@@ -1,0 +1,72 @@
+.navbar{
+    padding: 10px;
+    grid-area: uno;
+    background-color: aqua;
+    
+}
+
+.secciónbusqueda{
+    grid-area: dos;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.secciónprincipal{
+    grid-area: tres;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.secciónprincipal img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+
+.piedepágina{
+    grid-area: cuatro;
+    padding: 10px;
+    background-color: azure;
+}
+
+.boxprincipal{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    'uno dos dos'
+    'uno tres tres'
+    'cuatro tres tres'    
+
+    ;
+
+}
+
+
+
+
+.text{
+    width: 100%;
+}
+
+.lavidaesunamte{
+    display: flex;
+}
+
+ul{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li{
+    padding: 10px;
+}
+
+.iconosfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
