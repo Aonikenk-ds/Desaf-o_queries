@@ -1,41 +1,54 @@
 body{
-    background-color: green;
+    background-color: black;
 }
 
 .navbar{
     padding: 10px;
     grid-area: uno;
-    background-color: greenyellow;
+    background-color: black;
     
 }
 
 .secciónbusqueda{
     grid-area: dos;
     padding: 10px;
-    background-color: rgb(155, 215, 64);
+    background-color: black;
 }
 
 .secciónprincipal{
     grid-area: tres;
     padding: 10px;
-    background-color: rgb(125, 181, 42);
+    background-color: rgb(57, 52, 52);
+    
 
 }
 
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+
+
 .secciónprincipal img{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 230px;
     
+}
+
+.navbar ul:hover{
+    background-color: red;
+    border-radius: 20%;
 }
 
 
 
 .card{
     border: solid 1px black;
-    width: 180px;
-    height: 250px;
-    
-
+    width: 300px;
+    height: 320px;
+    gap: 50px  ;
+  
 }
 
 .numeros{
@@ -56,19 +69,19 @@ body{
 .piedepágina{
     grid-area: cuatro;
     padding: 10px;
-    background-color: rgb(112, 141, 68);
+    background-color: black;
 }
 
 .boxprincipal{
     display: grid;
     border-radius: black 2px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 20% 60% 20%;
     grid-template-areas: 
     'uno dos dos'
     'uno tres tres'
     'cuatro tres tres'    
-
     ;
+    color: white;
 
 }
 
@@ -81,9 +94,7 @@ body{
     width: 100%;
 }
 
-.lavidaesunamte{
-    display: flex;
-}
+
 
 ul{
     padding: 10px;
@@ -106,7 +117,7 @@ ul li{
     .boxprincipal{
         display: grid;
         border: solid black 1px;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 100%;
         grid-template-areas: 
         'uno'
         'dos'
